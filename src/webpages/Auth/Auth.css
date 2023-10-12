@@ -1,0 +1,101 @@
+/* Start SignUp */
+.row form {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./imgs/SignUp.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 40rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.row form input:placeholder-shown + label,
+.bson form input:placeholder-shown + label {
+    top: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+.row form input:focus,
+.bson form input:focus{
+    outline: transparent !important;
+}
+
+.row form input:focus:valid,
+.bson form input:focus:valid {
+    border-bottom: 3px solid green;
+}
+.row form input:focus:not(:valid),
+.bson form input:focus:not(:valid) {
+    border-bottom: 3px solid orangered;
+}
+/* End SignUp */
+/* Start LogIn */
+.dad {
+    background-image: url("./imgs/lo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bson form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: white;
+    height: 35rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+@media (max-width: 1200px) {
+    .bson form { 
+        width: 30%;
+    }
+}
+@media (max-width: 992px) {
+    .bson form { 
+        width: 40%;
+    }
+}
+@media (max-width: 768px) {
+    .bson form {
+        width: 55%;
+    }
+    .row form input, .btt{
+        width: 75%;
+    }
+    .des {
+        top: 40px;
+        right: 24px;
+        font-size: medium;
+    }
+    .fur {
+        top: 65px;
+        right: 16px;
+        font-size: small;
+    }
+}
+@media (max-width: 576px) {
+    .bson form {
+    width: 75%;
+    }
+    .logo {
+        width: 2.5rem;
+    }
+    .logo-f, .signup {
+        font-size: 23px;
+    }
+    .log-in {
+        font-size: 14px;
+    }
+}
+/* End LogIn */

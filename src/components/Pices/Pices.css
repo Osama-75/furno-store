@@ -1,0 +1,101 @@
+/* Start DataStore */
+.menu .active {
+    color: white;
+    background-color: blueviolet;
+}
+.menu .active:hover {
+    color: white;
+    background-color: blueviolet;
+}
+.cards {
+    scrollbar-width:none; 
+}
+.cards-card {
+    position: relative;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    min-width: 300px;
+    min-height: 480px;
+    max-width: 300px;
+}
+.add-cart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 42, 42, 0.6);
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+}
+.cards-card:hover .add-cart {
+    opacity: 1;
+    z-index: 3;
+}
+@media (max-width: 768px){
+    .add-cart {
+        height: 100px;
+        top: 460px;
+        opacity: 1;
+        background-color: transparent;
+    }
+    .cards-card{
+        min-height: 560px;
+    }
+}
+
+.add-cart-bt {
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgba(255, 255, 255);
+    color: #fba544;
+    border-bottom-color: #48d9f3;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+.filter-icon{
+    display: none;
+}
+@media (max-width: 992px) {
+    .menu {
+        position: absolute;
+        z-index: 98;
+        flex-direction: column;
+        width: 50%;
+        top: 60px;
+        display: none;
+        opacity: 0;
+    }
+    .filter-icon{
+        display: block;
+        font-size: 25px;
+    }
+}
+.show-catagory {
+    display: flex;
+    opacity: 1;
+}
+
+/* end DataStore */
+/* Start CardDetailes */
+.size button.act {
+    background-color: rgba(17, 157, 222, 0.774);
+    color: beige;
+}
+
+/* End CardDetailes */
+/* Start Advantages */
+.advan-con{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+}
+/* End Advantages */
