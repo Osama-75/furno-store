@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/furno-store/static/css/main.e4fecc16.css",
+    "main.js": "/furno-store/static/js/main.7bea03c1.js",
+    "static/media/about2.jpg": "/furno-store/static/media/about2.d543cdab1e5b2ecba51c.jpg",
+    "static/media/Landing.jpg": "/furno-store/static/media/Landing.cec6257d7afe0efa8550.jpg",
+    "static/media/About01.jpg": "/furno-store/static/media/About01.77e210851215662dbd3c.jpg",
+    "static/media/02.jpg": "/furno-store/static/media/02.641c10161877f72b6727.jpg",
+    "static/media/03.jpg": "/furno-store/static/media/03.494336614b18f933b02a.jpg",
+    "static/media/01.jpg": "/furno-store/static/media/01.f4c2f6a81aaa21579976.jpg",
+    "static/media/05.jpg": "/furno-store/static/media/05.81975f048f7121458443.jpg",
+    "static/media/04.jpg": "/furno-store/static/media/04.db11ce5ab5ac5768b634.jpg",
+    "static/media/07.jpg": "/furno-store/static/media/07.6e6db10f9930c107f1a6.jpg",
+    "static/media/08.jpg": "/furno-store/static/media/08.f161a622d243ee6a5357.jpg",
+    "static/media/06.jpg": "/furno-store/static/media/06.7d8f3573286cf7abcb3d.jpg",
+    "static/media/SignUp.jpg": "/furno-store/static/media/SignUp.df08283ce2fdd3657ef8.jpg",
+    "static/media/12.jpg": "/furno-store/static/media/12.2b7c3d47ee36b4bc8307.jpg",
+    "static/media/lo.jpg": "/furno-store/static/media/lo.a6848c5c7d2a35b5b307.jpg",
+    "static/media/shop.jpg": "/furno-store/static/media/shop.2fd06fc0184973d8d00c.jpg",
+    "static/media/10.jpg": "/furno-store/static/media/10.87c00989809a22b628e3.jpg",
+    "static/media/09.jpg": "/furno-store/static/media/09.4ba57aa1e1a501b98175.jpg",
+    "static/media/13.jpg": "/furno-store/static/media/13.7e8098ad9ab405ebc4bb.jpg",
+    "static/media/11.jpg": "/furno-store/static/media/11.9b717bbb20a627288228.jpg",
+    "static/media/14.jpg": "/furno-store/static/media/14.2c15cee8c51fceab2839.jpg",
+    "static/media/logo.png": "/furno-store/static/media/logo.38ba99073f65740b2a03.png",
+    "index.html": "/furno-store/index.html",
+    "main.e4fecc16.css.map": "/furno-store/static/css/main.e4fecc16.css.map",
+    "main.7bea03c1.js.map": "/furno-store/static/js/main.7bea03c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4fecc16.css",
+    "static/js/main.7bea03c1.js"
+  ]
+}
